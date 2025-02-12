@@ -85,17 +85,14 @@ Example Output:
 
 ## Your solution
 In order to make this as easy as possible i am being rather particular on what you have to do
-1. Fork the project and put it in your namespace (your UIN) and make it public
-
-![alt text]({0F40B6DC-1514-4CEF-AE4F-CFD219B75C64}.png)
-
+1. Fork the project and make it public
 2. Your solution must be dockerised
 3. Your solution must go and stay in the src folder
 4. Your solution will accept a file that will be put into the docker container at /data/test_data_input.txt
 5. Your solution will need to output a file with the solution in at /data/test_data_output.txt
 6. You must be prepared to explain the different aspects of your code at the end of the day
-7. To submit your application Teams me (Benjamin Pernot - 614792179) the git clone command to your repo
-8. You can have multiple submissions - just make multiple forks of the project and teams my individual git clone commands - don't take the piss 
+7. To submit your application message me the git clone command to your repo via github
+8. You can have multiple submissions - just make multiple forks of the project and message me the individual git clone commands - don't take the piss 
 
 ## Notes
 - There are no hidden messages or anything like that
