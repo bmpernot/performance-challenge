@@ -6,7 +6,7 @@ num_runs=5
 
 for ((i=1; i<=num_runs; i++)); do
     echo "Run #$i:"
-    time_taken=$({ time docker run --volume "${PWD}/generate/data:/data" proformance-challange/ben-pernot:1; } 2>&1 | tail -n 1)
+    time_taken=$({ time docker run --volume "${PWD}/generate/data:/data" proformance-challange/your-name:version-number; } 2>&1 | tail -n 1)
     echo "Execution time: ${time_taken} seconds"
     times+=("$time_taken")
 done
