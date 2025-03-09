@@ -2,8 +2,8 @@
 
 TIMEFORMAT='It took %R seconds.'
 time {
-    docker run --volume ./:/data proformance-challange/your_name:version_number
-    # The command to execute your program 
+    docker run --gpus all --volume ./test:/data performance-challenge/ben-pernot:2
+    # ./src/cuda_log_processor ./test/test_data_input.txt ./test/test_data_output.txt
 }
 
 file1="./test/test_data_output.txt"

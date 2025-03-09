@@ -1,4 +1,4 @@
-# Challenge: Computational Proformance
+# Challenge: Computational Performance
 ## Overview
 
 Fastest wins, it does not have to be clean or readable, just work :)
@@ -22,7 +22,7 @@ A single text with N lines, where each line represents a log entry:
 Example Input:
 ```
 1 7420738134810 "alpha-bravo-charlie"
-2 29996224275833 "delta-echo-foxtrot"
+2 29996224275835 "delta-echo-foxtrot"
 3 5182933210345 "golf-hotel-india"
 ```
 
@@ -32,7 +32,7 @@ Each encrypted_number must be decomposed into its prime factors.
 Example Output:
 ```
 1 → 2 3 5 7 11 13 17 19 23 29 31 37
-2 → 29996224275833
+2 → 5 34897 171912911
 3 → 5 11 94235149279
 ```
 
@@ -63,7 +63,7 @@ Example Output:
 
 ```
 1 → Sum(Step 1 result) * Step 2 result → 1793666614384
-2 → Sum(Step 1 result) * Step 2 result → 342809384196627573923225
+2 → Sum(Step 1 result) * Step 2 result → 1965091451058966725
 3 → Sum(Step 1 result) * Step 2 result → 3451614893129485600
 ```
 
@@ -74,8 +74,8 @@ Example Output:
 
 ```
 1 1793666614384
+2 1965091451058966725
 3 3451614893129485600
-2 342809384196627573923225
 ```
 
 ## Scoring & Execution
@@ -91,8 +91,8 @@ In order to make this as easy as possible i am being rather particular on what y
 4. Your solution will accept a file that will be put into the docker container at /data/test_data_input.txt
 5. Your solution will need to output a file with the solution in at /data/test_data_output.txt
 6. You must be prepared to explain the different aspects of your code at the end of the day
-7. To submit your application message me the git clone command to your repo via github
-8. You can have multiple submissions - just make multiple forks of the project and message me the individual git clone commands - don't take the piss 
+7. To submit your application Teams me (Benjamin Pernot - 614792179) the git clone command to your repo
+8. You can have multiple submissions - just make multiple forks of the project and teams my individual git clone commands - don't take the piss 
 
 ## Notes
 - There are no hidden messages or anything like that

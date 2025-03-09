@@ -2,7 +2,7 @@
 ## Includes built in methods and imports
 | Name | Time (s) | language |
 |-------|-------|-------|
-| example | 223.019 | Python |
+| example | 225.512 | Python |
 |  |  |  |
 |  |  |  |
 |  |  |  |

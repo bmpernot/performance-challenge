@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CUDA C++: Launch",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "/home/benjaminpernot/dev/performance-challenge/src/cuda_log_processor",
+            "args": ["/home/benjaminpernot/dev/performance-challenge/test/test_data_input.txt", "/home/benjaminpernot/dev/performance-challenge/test/test_data_output.txt"]
+        },
+        {
+            "name": "CUDA C++: Attach",
+            "type": "cuda-gdb",
+            "request": "attach",
+            "args": ["/home/benjaminpernot/dev/performance-challenge/test/test_data_input.txt", "/home/benjaminpernot/dev/performance-challenge/test/test_data_output.txt"]
+        }
+    ]
+}
